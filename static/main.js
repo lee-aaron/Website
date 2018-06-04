@@ -5,7 +5,7 @@ intro.textContent = "Why is Food Wastage So Important?";
 var image = document.createElement("img");
 image.style.padding = "10px";
 image.style.paddingTop = "15px";
-image.setAttribute("src", "https://www.barfblog.com/wp-content/uploads/2017/05/food.waste_.jpg");
+image.setAttribute("src", "http://www.barfblog.com/wp-content/uploads/2017/05/food.waste_.jpg");
 
 var text1 = document.createElement("p");
 text1.style.fontFamily = "Architects Daughter";
