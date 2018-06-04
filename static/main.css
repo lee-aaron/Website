@@ -6,16 +6,15 @@ body, html {
     padding-top: 10px;
     width: 100%;
     text-align: center;
-    background: rgb(42, 178, 56);
+    background-color: rgba(42, 178, 56, 0.71);
 }
 
 #content div {
     display: inline-block;
 }
 
-#content div * {
+#content div span {
     display: block;
-    text-align: center;
 }
 
 .title {
@@ -25,7 +24,7 @@ body, html {
 
 .info {
     padding-top: 15px;
-    background: rgb(42, 178, 56);
+    background-color: rgba(42, 178, 56, 0.71);
     display: flex;
     justify-content: center;
     align-content: center;
@@ -67,6 +66,10 @@ body, html {
 #right-panel.expand {
     width: 70%;
     max-height: 100%;
+}
+
+ul {
+    padding-left: 0;
 }
 
 .parallax {

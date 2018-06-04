@@ -1,0 +1,15 @@
+body, html {
+    height: 100%;
+}
+
+#main {
+    padding-top: 10px;
+    width: 100%;
+    text-align: center;
+}
+
+#main span {
+    display: block;
+    padding-left: 20px;
+    text-align: left;
+}
